@@ -1,0 +1,34 @@
+.Qlink{
+    width: 30%;
+    height: 55%;
+}
+.Qlink_container{
+    width: 100%;
+    height: 100%;
+}
+.Qlinkheader{
+    height: 20px;
+    color:aliceblue;
+    margin: 20px;
+    text-align: left;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.link{
+    display: flex;
+    margin-bottom: 5px;
+}
+.linkimage{
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    background-color: aliceblue;
+}
+.linktext{
+    text-align: left;
+    color: rgb(4, 4, 213);
+}

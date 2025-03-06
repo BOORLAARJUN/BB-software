@@ -1,0 +1,27 @@
+#Action{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Actiondiv{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#ActionHeader{
+    color: rgb(23, 22, 22);
+}
+.ActionButton{
+    height: 50px;
+    width: 80%;
+    margin-top: 20px;
+    background-color:rgb(138, 80, 6);
+    color: aliceblue;
+}

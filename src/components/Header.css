@@ -1,0 +1,113 @@
+#main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Fixed Header Bar */
+.Header1 {
+    width: 100%;
+    display: flex;
+    height: 60px; /* Adjusted height */
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4a261;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+/* Header Left Section */
+#HeaderLeft {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.emblem {
+    display: flex;
+    align-items: center;
+}
+
+#emblem, #digindia {
+    width: 80px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Header Right Section */
+#HeaderRight {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#lang {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+#login_button{
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#digindia{
+    width: 100px;
+    height: 100px;
+}
+
+/* Search Section */
+#Header2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('Header1_img.jpeg') center/cover no-repeat; /* Background image applied */
+}
+
+#searchbar {
+    width: 700px;
+    max-width: 90%;
+    border-radius: 50px;
+    font-size: medium;
+    padding: 10px 15px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    outline: none;
+}
+
+/* Search Icon */
+#searchicon {
+    position: absolute;
+    left: 200px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Login Button */
+button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(11, 11, 167);
+    color: antiquewhite;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: darkblue;
+}

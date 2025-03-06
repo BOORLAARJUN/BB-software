@@ -1,0 +1,88 @@
+/* Base Navbar Styles */
+#Navbar {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1.5px solid rgb(179, 169, 156);
+    background-color: #fff; /* Add background */
+}
+
+/* Navbar Container */
+.Navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* Navbar Items */
+.Navitem {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 15px;
+}
+
+/* Navbar Text */
+.Navnames {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    width: 200px;
+}
+
+/* Navbar Icons */
+.Navicon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.Navicon:hover {
+    color: #007bff;
+    transition: 0.3s;
+}
+
+/* Hamburger menu - Hidden by default */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    #Navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+    }
+
+    .Navmenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    /* Show menu when active */
+    .nav-active {
+        display: flex;
+    }
+
+    .Navitem {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
