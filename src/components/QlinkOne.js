@@ -1,6 +1,6 @@
 import React from "react";
-import "./Qlink1.css";
-function Qlink_1({title,links}){
+import "./QlinkOne.css";
+function QlinkOne({title,links}){
     return(
         <div className="Qlink">
             <div className="Qlink_container">
@@ -17,4 +17,4 @@ function Qlink_1({title,links}){
         </div>
     );
 }
-export default Qlink_1;
+export default QlinkOne;
